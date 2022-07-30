@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    height: 100%;
+    background-color: rgb(252, 209, 252);
+    transition: .3s;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+.dark, 
+.dark header {
+    background-color: #550343;
+    color: #fff;
+}
+
+.bi {
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.bi-moon {
+    display: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fcb5fc;
+    padding: 1rem 2rem;
+    position: relative;
+    box-shadow: 4px 4px 10px 4px #fff;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+  
+    margin-top: 4rem;
+    display: flex;
+    width: 60%;
+    background-color: #ffc8f3;
+    box-shadow: 5px 5px 5px 0 #ff00d466, 10px 7px 7px 0 #fff
+}
+
+.card-image,
+.card-datails {
+    padding: 2rem;
+    width: 50%;
+}
+
+.card-image {
+    position: relative;
+    background-color: #fff;
+}
+
+.card-image span {
+    font-size: 4rem;
+    font-weight: 900;
+}
+
+.card-image img {
+    width: 130%;
+    transform: rotate(-10deg);
+    position: absolute;
+    top: 5rem;
+    right: -3rem;
+}
+
+.card-datails h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+
+}
+
+.subtitle {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.description {
+    line-height: 1.5rem;
+    margin-bottom: 2rem;
+
+}
+
+.container-price {
+    display: flex;
+    justify-content: space-between;
+}
+
+.price {
+    font-weight: 900;
+    font-size: 2rem;
+
+}
+
+.btn {
+    background-color: #7a0060;
+    width: 7rem;
+    height: 3rem;
+    border: none;
+    border-radius: 3rem;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.dark .bi-sun {
+    display: none;
+}
+
+.dark .bi-moon {
+    display: inline-block;
+}
+
+.dark .card {
+    background-color: #860069;
+}
+
+.dark .card .btn {
+    background-color: #700158;
+}
+
+.dark .card-image {
+    background-color: #700158;
+}
