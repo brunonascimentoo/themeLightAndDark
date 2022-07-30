@@ -108,7 +108,7 @@ main {
 }
 
 .btn {
-    background-color: #7a0060;
+    background-color: #ff7ce3;
     width: 7rem;
     height: 3rem;
     border: none;
@@ -117,6 +117,7 @@ main {
     font-weight: bold;
     text-transform: uppercase;
     cursor: pointer;
+    transition: .5s;
 }
 
 .dark .bi-sun {
@@ -131,8 +132,13 @@ main {
     background-color: #860069;
 }
 
+
 .dark .card .btn {
     background-color: #700158;
+}
+
+.dark .card .btn:hover {
+    background-color: #1d0117;
 }
 
 .dark .card-image {
